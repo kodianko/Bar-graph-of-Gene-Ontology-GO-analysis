@@ -21,3 +21,5 @@ matplotlib
  - replace 'X' with the name of the disk and its folders.
 
 5. Run the code.
+
+Cite the code: [![DOI](https://zenodo.org/badge/678244360.svg)](https://zenodo.org/badge/latestdoi/678244360)
