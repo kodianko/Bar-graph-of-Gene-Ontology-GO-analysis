@@ -1,5 +1,5 @@
 # Bar graph of Gene Ontology analysis
-Contains proteomic data (.xlsx) and a Python code (.py) for generating bar graphs for Gene Ontology groups used in a research paper titled "Programming death subroutines of cancer cells by the composition of charge-imbalanced nanoparticles", Nature, 2023. 
+Python code (.py) for generating bar graphs for Gene Ontology groups in proteomic data. Example processed proteomic data (.xlsx) are included.
 
 ## How to plot bar graphs for GO groups
 
