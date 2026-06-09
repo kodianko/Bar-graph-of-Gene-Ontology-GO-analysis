@@ -1,20 +1,28 @@
-# Bar graph of Gene Ontology analysis
-Python code (.py) for generating bar graphs for Gene Ontology groups in proteomic data. Example processed proteomic data (.xlsx) are included.
+# Python scripts for proteomics data analysis, including Gene Ontology enrichment plots, volcano plots, heatmaps, and nanoparticle corona/lysosomal proteomics workflows.
+Python code (.py) for generating bar graphs for proteomic data. Example processed proteomic data (.xlsx) are included.
 
-## How to plot bar graphs for GO groups
+## How to plot graphs
 
 1. Download and extract zip file containing Data file (xlsx) and Python file (py):
- - Programming_death_subroutines_2023_ProteinCoronaData.xlsx
- - GO_BarPlots_ProteinCorona.py
+ - NP_coronas_data.xlsx
+ - Lysosomal_proteomics_data.xlsx
+ - GO_BarPlots_NP_coronas.py
+ - VolcanoPlot_NP_coronas.py
+ - VolcanoPlot_Lysosomal_proteomics.py
+ - Heatmap_NP_coronas.py
+ - Heatmap_Lysosomal_proteomics.py
 
 2. Open Python file 
-   We used PyCharm 2023.1 (Professional Edition)
+   We used PyCharm 2025.3.4
 
 Requirements:
 pandas
-matplotlib
+numpy
+seaborn
+matplotlib.pylab
+matplotlib.colors
 
-3. Modify the xlsx file path "fbs_path" to the location where you saved the downloaded xlsx file.
+3. Modify the xlsx file path "df_path" to the location where you saved the downloaded xlsx file.
 
 
 4. Change the "save_to_folder" setting where bar graphs will be stored:
